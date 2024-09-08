@@ -12,7 +12,7 @@ function loadAllPapers() {
                 row.innerHTML = `
                     <td>
                         <div class="widget-26-job-title">
-                            <a href="#">${paper.title}</a>
+                            <p class="type m-0">${paper.title}</p>
                         </div>
                     </td>
                     <td>
@@ -84,7 +84,7 @@ function searchPapers(event) {
                 row.innerHTML = `
                     <td>
                         <div class="widget-26-job-title">
-                            <a href="#">${paper.title}</a>
+                            <p class="type m-0">${paper.title}</p>
                         </div>
                     </td>
                     <td>

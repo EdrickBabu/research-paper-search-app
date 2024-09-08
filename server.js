@@ -51,7 +51,6 @@ app.get('/search', (req, res) => {
         ...paper,
         isSaved: savedPaperIds.includes(paper.id)
     }));
-    console.log(papersWithSavedStatus);
     res.json(papersWithSavedStatus);
 });
 
